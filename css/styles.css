@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Horizontaal centreren */
+    align-items: center;    /* Verticaal centreren */
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100vh;         /* Volledige hoogte van het venster */
+    background-color: #fffffff; /* Achtergrondkleur (optioneel) */
+}
+
+img {
+    max-width: 100%; /* Zorgt ervoor dat de afbeelding responsief is */
+    height: auto;    /* Behoudt de verhoudingen van de afbeelding */
+}
